@@ -1231,7 +1231,7 @@ function App() {
 
       <div className="macro-section">
         <div className="section-header">
-          <h2>Macroeconomic Context</h2>
+          <h2>Are the Current Macroeconomic Conditions Similar to the Dot-com Bubble and other Historical Bubbles?</h2>
         </div>
 
         <div
