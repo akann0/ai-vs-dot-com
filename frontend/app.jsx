@@ -2107,6 +2107,41 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* Top 3 Companies Concentration Table */}
+        <div className="card chart-card" style={{ marginTop: 24, marginBottom: 24 }}>
+          <h3 style={{ margin: "0 0 16px 0", fontSize: "1.1rem", color: "#e2e8f0" }}>
+            Index Concentration: Top 3 Companies
+          </h3>
+          <table style={{
+            width: "100%",
+            borderCollapse: "collapse",
+            fontSize: "0.95rem",
+          }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid rgba(148,163,184,0.3)" }}>
+                <th style={{ padding: "12px 16px", textAlign: "left", color: "#9ca3af", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontSize: "0.8rem" }}>Era</th>
+                <th style={{ padding: "12px 16px", textAlign: "left", color: "#9ca3af", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontSize: "0.8rem" }}>Top 3 Companies</th>
+                <th style={{ padding: "12px 16px", textAlign: "right", color: "#9ca3af", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.05em", fontSize: "0.8rem" }}>% of Index</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid rgba(148,163,184,0.15)" }}>
+                <td style={{ padding: "14px 16px", color: SERIES_COLORS.dotcom.solid, fontWeight: 600 }}>Dot-com Era (2000)</td>
+                <td style={{ padding: "14px 16px", color: "#cbd5e1" }}>Microsoft, Intel, Cisco</td>
+                <td style={{ padding: "14px 16px", textAlign: "right", fontFamily: "'Space Mono', monospace", fontSize: "1.1rem", fontWeight: 700, color: SERIES_COLORS.dotcom.solid }}>21.5%</td>
+              </tr>
+              <tr>
+                <td style={{ padding: "14px 16px", color: SERIES_COLORS.bigTech.solid, fontWeight: 600 }}>AI Era (2025)</td>
+                <td style={{ padding: "14px 16px", color: "#cbd5e1" }}>NVIDIA, Apple, Alphabet</td>
+                <td style={{ padding: "14px 16px", textAlign: "right", fontFamily: "'Space Mono', monospace", fontSize: "1.1rem", fontWeight: 700, color: SERIES_COLORS.bigTech.solid }}>36.7%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style={{ margin: "16px 0 0 0", fontSize: "0.85rem", color: "#9ca3af", fontStyle: "italic" }}>
+            Today's AI era shows higher concentration than the dot-com bubble—the top 3 companies now command over a third of the index. However, these giants have diversified revenue streams and proven earnings, unlike the speculative single-product bets of 2000.
+          </p>
+        </div>
       </div>
 
       {/* MACRO SECTION */}

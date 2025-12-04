@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-12-03T21:13:03.726623",
+  "current": {
+    "era": "AI Era (December 2025)",
+    "top3_companies": [
+      "NVDA",
+      "AAPL",
+      "GOOGL"
+    ],
+    "top3_market_caps_bn": {
+      "NVDA": 4372.5,
+      "AAPL": 4216.9,
+      "GOOGL": 3871.4
+    },
+    "top3_total_bn": 12460.8,
+    "index_total_bn": 33990.6,
+    "percentage": 36.7,
+    "source": "yfinance real-time data"
+  },
+  "dotcom": {
+    "era": "Dot-com Era (March 2000)",
+    "top3_companies": [
+      "Microsoft",
+      "Intel",
+      "Cisco"
+    ],
+    "top3_market_caps_bn": {
+      "Microsoft": 413.4,
+      "Intel": 395.0,
+      "Cisco": 352.0
+    },
+    "top3_total_bn": 1160.4,
+    "index_total_bn": 5400,
+    "percentage": 21.5,
+    "source": "Dotcom.csv + NASDAQ historical archives"
+  }
+}
